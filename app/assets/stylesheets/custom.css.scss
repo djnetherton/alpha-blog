@@ -1,2 +1,28 @@
+$navbar-default-bg: #FE2E64;
+#logo{
+  font-size:1.7em;
+  color:darken($navbar-default-bg, 20);
+  text-transform:uppercase;
+  letter-spacing:-1px;
+  font-weight:bold;
+}
+.center{
+  text-align:center;
+}
+.jumbotron{
+  background-image: asset-url('DanNethertonLogo.png');
+  background-size:cover;
+  height:400px;
+  h1{
+    font-size:2rem;
+    color:white !important;
+  }
+  .btn-xlarge{
+    color:white;
+    background: black;
+    border:0;
+    font-size:2rem;
+  }
+}
 @import "bootstrap-sprockets";
 @import "bootstrap";
